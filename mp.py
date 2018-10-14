@@ -2,6 +2,7 @@ import pandas as pd
 
 def just_foo_cols(self):
     """get a list of colum names containing the string 'foo'
+		this is just to test the git
     """
     return [x for x in self.columns if 'foo' in x]
 

@@ -8,5 +8,6 @@ def just_foo_cols(self):
 pd.DataFrame.just_foo_cols=just_foo_cols
 df=pd.DataFrame([list(range(4))],columns=["A","foo","foozball","bar"])
 df.just_foo_cols()
+pass
 
 del pd.DataFrame.just_foo_cols
